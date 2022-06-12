@@ -1,0 +1,39 @@
+.destacados{
+    background-color: #DFE3F5;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+h2{
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4F4C4C;
+}
+
+.destacados figcaption{
+    color: black;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.destacados-boton{
+    color: #E33B3B;
+    font-weight: bold;
+    font-size: 1rem;
+    border: #E33B3B solid 1px;
+
+}
+@media all and (min-width: 320px){
+    .destacados figure{
+        width: 100%;
+    }
+    .destacados img{
+        width: 100%;
+    }
+    .destacados-boton{
+        width: 90%;
+        margin: 1.5rem auto ;
+        padding: 0.5rem;
+    }
+}

@@ -1,0 +1,47 @@
+.sobre-nosotros{
+    margin: 3rem 0;
+}
+
+.sobre-nosotros-articulo section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight:bold;
+    color: black;
+    margin: 1rem 0;
+}
+.sobre-nosotros-articulo section h3{
+    font-weight: bolder;
+}
+
+.sobre-nosotros-descripcion p{
+    color: #4F4C4C;
+    padding: 1rem;
+}
+.sobre-nosotros-descripcion h2{
+     margin: 1rem 0;
+     text-align: center;
+}
+
+
+
+@media all and (min-width:320px){
+    .sobre-nosotros-articulos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sobre-nosotros-articulo{
+        
+        width: 60%;
+    }
+    .sobre-nosotros-descripcion .imagen{
+        display: none;
+    }
+    .sobre-nosotros-descripcion .plataformas{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+    }
+}

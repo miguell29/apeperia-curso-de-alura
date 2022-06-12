@@ -1,0 +1,58 @@
+.planes{
+    background-color: #F7F4F4;
+    padding-bottom: 2rem;
+}
+.planes h2 , .planes h3, .planes p{
+    text-align: center;
+    margin: 1rem;
+}
+.planes h2 ,.planes h3{
+    font-size: 2rem;
+}
+.planes p{
+    font-size: 3rem;
+}
+.planes article{
+ background-color: white;
+ margin :1rem;
+ width: 80%;
+}
+
+.start p, .start h3{
+    color: #035A76;
+}
+.ultra p, .ultra h3{
+    color: #690F8E;
+}
+.mega p, .mega h3{
+    color: #B00024;
+}
+.planes h3{
+    border-bottom: 1px solid;
+}
+
+
+.planes .planes-boton{
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin :1rem auto 2rem auto;
+    width: 60%;
+
+}
+
+
+@media all and (min-width:320px){
+    .planes section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .planes li{
+        margin: 0.5rem;
+        margin-left: 3rem;
+
+    }
+
+}
