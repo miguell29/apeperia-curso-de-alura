@@ -24,6 +24,8 @@
 }
 
 
+/****** PANTALLA PARA SMARTPHONES *******/
+
 
 @media all and (min-width:320px){
     .sobre-nosotros-articulos{
@@ -32,7 +34,6 @@
         align-items: center;
     }
     .sobre-nosotros-articulo{
-        
         width: 60%;
     }
     .sobre-nosotros-descripcion .imagen{
@@ -43,5 +44,17 @@
         justify-content: space-between;
         width: 80%;
         margin: 0 auto;
+    }
+}
+
+
+/********* PANTALLA PARA TABLETS **********/
+
+@media all and (min-width:480px){
+    .sobre-nosotros-articulo{
+        width: 40%;
+    }
+    .sobre-nosotros-descripcion .plataformas{
+        width: 60%;
     }
 }

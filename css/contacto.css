@@ -14,9 +14,23 @@
     border-radius: 5px;
 }
 
+
+/****** PANTALLA PARA SMARTPHONES *******/
+
 @media all and (min-width:320px){
     .institucional img{
         width: 100%;
         padding: 2rem 0;
+    }
+}
+
+
+/********* PANTALLA PARA TABLETS **********/
+@media all and (min-width:480px){
+    .contacto-boton{
+        width: 40%;
+    }
+    .institucional img{
+        width: 80%;
     }
 }

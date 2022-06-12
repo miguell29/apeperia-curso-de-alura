@@ -22,8 +22,13 @@ h2{
     font-weight: bold;
     font-size: 1rem;
     border: #E33B3B solid 1px;
+    border-radius: 5px;
 
 }
+
+
+/****** PANTALLA PARA SMARTPHONES *******/
+
 @media all and (min-width: 320px){
     .destacados figure{
         width: 100%;
@@ -35,5 +40,18 @@ h2{
         width: 90%;
         margin: 1.5rem auto ;
         padding: 0.5rem;
+    }
+}
+
+
+/********* PANTALLA PARA TABLETS **********/
+
+@media all and (min-width:480px){
+    .destacados figure{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .destacados-boton{
+        width: 50%;
     }
 }
