@@ -58,3 +58,27 @@
         width: 60%;
     }
 }
+
+
+
+/********** PANTALLA PARA ESCRITORIO **********/
+
+@media all and (min-width:1024px){
+    .sobre-nosotros-articulos{
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    }
+    .sobre-nosotros-articulo{
+        width: 20%;
+    }
+    .sobre-nosotros-descripcion{
+        display: flex;
+        width: 90%;
+        margin: 2rem auto ;
+    }
+    .sobre-nosotros-descripcion .imagen{
+        display: block;
+    }
+}

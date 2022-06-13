@@ -55,3 +55,19 @@ h2{
         width: 50%;
     }
 }
+
+
+
+
+/********** PANTALLA PARA ESCRITORIO **********/
+@media all and (min-width:1024px){
+    .destacados figure{
+        width: 50%;
+    }
+    .destacados figcaption{
+        font-size: 1rem;
+    }
+    .destacados-boton{
+        width: 30%;
+    }
+}

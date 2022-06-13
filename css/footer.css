@@ -46,3 +46,24 @@ footer{
         flex-wrap: nowrap;
     }
 }
+
+
+
+
+/********** PANTALLA PARA ESCRITORIO **********/
+
+@media all and (min-width:320px){
+    footer section{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer .redes{
+        width: 40%;
+        padding: 0;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin:0%;
+    }
+}

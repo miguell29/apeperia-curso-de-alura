@@ -68,3 +68,27 @@
         width: 50%;
     }
 }
+
+
+
+
+
+/********** PANTALLA PARA ESCRITORIO **********/
+
+@media all and (min-width:1024px){
+    .planes section{
+        flex-direction: row;
+    }
+    .planes article{
+        width: 30%;
+    }
+    .institucional{
+        display: flex;
+        align-content: stretch;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .institucional .video{
+        width: 30%;
+    }
+}
